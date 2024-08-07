@@ -1,0 +1,19 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.1",
+    "description": "Social Network API",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index",
+        "dev": "nodemon index",
+        "seed": "node utils/seed",
+        "heroku-postbuild": "node utils/seed.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "mongoose": "^7.8.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.9"
+    }
+}
